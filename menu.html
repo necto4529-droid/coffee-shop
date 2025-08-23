@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Меню — Кофейня</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Меню</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="cart.html">Корзина</a>
+      <a href="login.html">Войти</a>
+    </nav>
+  </header>
+
+  <main class="menu">
+    <div class="product">
+      <h3>Американо</h3>
+      <p>150 ₽</p>
+      <button onclick="addToCart('Американо',150)">В корзину</button>
+    </div>
+    <div class="product">
+      <h3>Капучино</h3>
+      <p>200 ₽</p>
+      <button onclick="addToCart('Капучино',200)">В корзину</button>
+    </div>
+    <div class="product">
+      <h3>Латте</h3>
+      <p>220 ₽</p>
+      <button onclick="addToCart('Латте',220)">В корзину</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
