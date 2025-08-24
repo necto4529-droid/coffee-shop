@@ -1034,7 +1034,7 @@ ${orderData.items.map(item => {
         // Если email не сработал, сохраняем локально
         if (!success) {
           success = saveOrderToLocalStorage(orderData);
-          showToast('Заказ сохранен локально! Проверьте консоль (F12)', 'success');
+          showToast('Заказ принят! Заберите его по адресу: Рыбинск, инженерная 22', 'success');
         } else {
           showToast('Заказ отправлен на email!', 'success');
         }
